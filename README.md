@@ -15,4 +15,4 @@ For the originally extracted content please refer to the PDF version or the uned
 The PDF files were first converted with `pdftotext` and split with `csplit --digits=2  --quiet --prefix=greece greece.txt "/CHAPTER/" {"*"}` (the *CHAPTER* tag was inserted before splitting - it is not part of the original content). 
 
 ##Note
-Although 'miroir' is the French word for 'mirror' **I am not in any way related to FT's Peter Spiegel** ('Spiegel' is the German word for 'mirror')!
+Although `miroir` is the French word for `mirror` (and `Spiegel` is the German word for `mirror`) **I am not in any way related to FT's Peter Spiegel**!
