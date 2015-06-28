@@ -1,13 +1,18 @@
 # Last Offers
+Split and cleaned versions of the "Last Proposals" of the Troika and the Greek government.
 
 Based on the PDFs from:
-http://blogs.ft.com/brusselsblog/2015/06/26/leaked-greeces-new-bailout-counterproposal/ and 
-http://blogs.ft.com/brusselsblog/2015/06/25/leaked-greece-bailout-plan-sent-to-eurogroup/
+- http://blogs.ft.com/brusselsblog/2015/06/26/leaked-greeces-new-bailout-counterproposal/
+- http://blogs.ft.com/brusselsblog/2015/06/25/leaked-greece-bailout-plan-sent-to-eurogroup/
 
+##Differences in the proposals
+See https://github.com/miroir/GreeceLastOffer/tree/master/Diffs for screenshots with highlighted differences.
 
-NOTE: Althought 'miroir' is the French word for 'mirror' **I am not in any way related to FT's Peter Spiegel** ('Spiegel' is the German word for 'mirror')!
+##Content
+Greek offer in `greek*` , Troika offer in `troika*`
+For the originally extracted content please refer to the PDF version or the unedited text files `greece.txt` and `troika.txt`.
 
-Greek offer in greek.* , Troika offer in troika.*
+The PDF files were first converted with `pdftotext` and split with `csplit --digits=2  --quiet --prefix=greece greece.txt "/CHAPTER/" {"*"}` (the *CHAPTER* tag was inserted before splitting - it is not part of the original content). 
 
-The PDF files were first converted with **pdftotext** and split with **csplit --digits=2  --quiet --prefix=greece greece.txt "/CHAPTER/" {"*"}** (the *CHAPTER* tag was inserted before splitting - it is not part of the original content). The separated files were manually reformatted.
-For the originally extracted content please refer to the PDF version or the unedited text files *greece.txt* and *troika.txt*.
+##Note
+Although 'miroir' is the French word for 'mirror' **I am not in any way related to FT's Peter Spiegel** ('Spiegel' is the German word for 'mirror')!
