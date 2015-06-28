@@ -8,6 +8,12 @@ Based on the PDFs from:
 ##Differences in the proposals
 See https://github.com/miroir/GreeceLastOffer/tree/master/Diffs for screenshots with highlighted differences.
 
+###Verify the differences yourself
+Tools to highlight differences in text files
+- **Windows**: Winmerge http://winmerge.org/
+- **Mac**: Diffmerge http://www.sourcegear.com/diffmerge/
+- **Linux**: you probably know what to do
+
 ##Content
 Greek offer in `greek*` , Troika offer in `troika*`
 For the originally extracted content please refer to the PDF version or the unedited text files `greece.txt` and `troika.txt`.
